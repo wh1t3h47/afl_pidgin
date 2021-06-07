@@ -1,0 +1,7 @@
+libzephyr_la-zephyr_err.lo: \
+  /usr/lib/llvm-11/lib/clang/11.0.1/share/asan_blacklist.txt \
+  zephyr_err.c zephyr_err.h
+
+/usr/lib/llvm-11/lib/clang/11.0.1/share/asan_blacklist.txt:
+
+zephyr_err.h:

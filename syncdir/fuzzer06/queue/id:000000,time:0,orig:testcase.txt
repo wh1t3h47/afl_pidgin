@@ -1,0 +1,4 @@
+im.pidgin.purple.PurpleService /im/pidgin/purple/PurpleObject im.pidgin.purple.PurpleInterface.PurpleCoreQuit PurpleCoreQuit
+im.pidgin.purple.PurpleService /im/pidgin/purple/PurpleObject im.pidgin.purple.PurpleInterface.PurpleAccountsGetAll PurpleAccountsGetAll
+im.pidgin.purple.PurpleService /im/pidgin/purple/PurpleObject im.pidgin.purple.PurpleInterface.PurpleAccountsFindConnected PurpleAccountsFindConnected string: string:prpl-jabber
+

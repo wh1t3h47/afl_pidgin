@@ -1,0 +1,19 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+sysconfdir=${prefix}/etc
+
+abs_top_srcdir=/home/skid/My_Code/afl_pidgin/pidgin-2.14.5
+abs_top_builddir=/home/skid/My_Code/afl_pidgin/pidgin-2.14.5
+
+plugindir=${libdir}/pidgin
+
+Name: Pidgin
+Description: Pidgin is a GTK2-based instant messenger application.
+Version: 2.14.5
+Requires: gtk+-2.0 purple
+Cflags: -I${abs_top_srcdir} -I${abs_top_srcdir}/pidgin -I${abs_top_builddir} -I${abs_top_builddir}/pidgin
+Libs: -L${abs_top_builddir}/pidgin -lpidgin

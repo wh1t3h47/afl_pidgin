@@ -1,0 +1,4 @@
+# environment variables:
+AFL_KILL_SIGNAL=9
+# command line:
+'/usr/local/bin/afl-fuzz' '-i' 'testcase' '-o' 'result' '-M' 'fuzzer03' '-b' '3' './fuzz.out'
