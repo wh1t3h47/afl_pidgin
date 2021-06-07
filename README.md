@@ -1,4 +1,4 @@
-# afl_pidgin
+# afl_pidgin: Hacking pidgin
 
 Fuzz pidgin via dbus by using AFL++ instrumentation (clang)
 
