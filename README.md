@@ -17,4 +17,8 @@ It took me about 140 lines of C code and 100 more of shell, I used argv fuzzer t
 ./build_pidgin.sh
 ```
 
+## Fuzzing
+```bash
+sleep 3 && ./afl_start.sh
+```
 
