@@ -1,5 +1,16 @@
 # afl_pidgin: Hacking pidgin
 
+<div align="center">
+  <img alt="Markdown" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"/>
+  <img alt="Shell Script" src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+  <img alt="CMake" src="https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white"/>
+  <img alt="Vim" src="https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white"/>
+  <img alt="C" src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/>
+</div>
+
+> By wh1t3h47 (Antonio Martos Harres) - github.com/wh1t3h47
+
+
 Fuzz pidgin via dbus by using AFL++ instrumentation (clang)
 
 This project was just a test to see if I could handle AFL++ and had enough knowledge to fuzz the Pidgin messenger, it's by no means a complete approach, but still a successful one.
